@@ -8,3 +8,5 @@ WORKDIR app/
 COPY . .
 
 RUN /app/hello.sh
+
+CMD /app/hello.sh
