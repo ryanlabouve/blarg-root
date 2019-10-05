@@ -1,0 +1,7 @@
+version: "3.7"
+services:
+  blargchild:
+    build: ./blarg-child
+
+  blargchild2:
+    build: ./blarg-child2
